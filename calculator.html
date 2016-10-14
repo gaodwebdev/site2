@@ -1,0 +1,93 @@
+<html>
+  <head>
+
+
+
+
+
+
+
+
+  </head><body>
+<h1> Performin Math</h1>
+
+
+<p>value1:<input type="text"id="Value1" value="4"></p>
+<p>value2:<input type="text"id="Value2" value="5"></p>
+<p>result:<input type="text"id="Result" value=""></p>
+
+
+
+<input type="button" value="+" onclick="doAdd()"/>
+<input type="button" value="-" onclick="doSub()"/>
+<input type="button" value="*" onclick="doMult()"/>
+<input type="button" value="/" onclick="doDiv()"/>
+
+
+<script>
+  function doAdd(){
+  var value1=new Number(document.getElementById("Value1").value);
+  var value2=new Number(document.getElementById("Value2").value);
+  document.getElementById("Result").setAttribute("value", value1 + value2);
+  }
+  function doSub(){
+  var value1=new Number(document.getElementById("Value1").value);
+  var value2=new Number(document.getElementById("Value2").value);
+  document.getElementById("Result").setAttribute("value", value1 - value2);
+  }
+  function doMult(){
+  var value1=new Number(document.getElementById("Value1").value);
+  var value2=new Number(document.getElementById("Value2").value);
+  document.getElementById("Result").setAttribute("value", value1 * value2);
+  }
+  function doDiv(){
+  var value1=new Number(document.getElementById("Value1").value);
+  var value2=new Number(document.getElementById("Value2").value);
+  document.getElementById("Result").setAttribute("value", value1 / value2);
+  }
+
+
+
+</script>
+    
+
+
+
+
+
+
+
+
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+</html>
