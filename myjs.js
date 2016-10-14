@@ -20,7 +20,7 @@
   var value2=new Number(document.getElementById("Value2").value);
   document.getElementById("Result").setAttribute("value", value1 / value2);
   }
-function aler(){
+function alert(){
 
     document.write("this is the second");
 
